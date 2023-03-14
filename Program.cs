@@ -15,6 +15,8 @@ public class Program
             foreach (Process p in proc)
             {
                 writer.WriteLine(p.ProcessName);
+writer.WriteLine(p.ProcessId);
+
             }
         }
 
