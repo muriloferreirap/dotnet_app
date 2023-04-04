@@ -8,7 +8,7 @@ public class Program
     {
         Process[] proc = Process.GetProcesses();
 
-        string path = @"C:\Users\Murilo\Documents\projetos\dotnet_app\FirstApp\process.txt";
+        string path = @"C:\Users\Documents\projetos\dotnet_app\process.txt";
 
         using (StreamWriter writer = File.CreateText(path))
         {
